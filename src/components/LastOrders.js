@@ -12,11 +12,11 @@ function LastOrders(name, calories, fat, carbs, protein) {
 }
 
 const rows = [
-  LastOrders('1278412', '10/12/21', '10:00', 24),
-  LastOrders('1278857', '10/01/22', '10:20', 37),
-  LastOrders('1235658', '15/02/22', '22:00', 24),
-  LastOrders('1235684', '18/03/22', '22:10', 67),
-  LastOrders('1239954', '01/04/22', '21:15', 49),
+  LastOrders('1278412', '10/12/21', '10:00', 24 + ' ₪'),
+  LastOrders('1278857', '10/01/22', '10:20', 37+ ' ₪'),
+  LastOrders('1235658', '15/02/22', '22:00', 24+ ' ₪'),
+  LastOrders('1235684', '18/03/22', '22:10', 67+ ' ₪'),
+  LastOrders('1239954', '01/04/22', '21:15', 49+ ' ₪'),
 ];
 
 export default function BasicTable() {

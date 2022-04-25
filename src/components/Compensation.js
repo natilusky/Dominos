@@ -12,8 +12,8 @@ function Compensation(name, calories, fat, carbs, protein) {
 }
 
 const rows = [
-  Compensation('1278412', '10/12/21', '10:00', 15),
-  Compensation('1278857', '10/01/22', '10:20', 10),
+  Compensation('1278412', '10/12/21', '10:00', 15+ ' ₪'),
+  Compensation('1278857', '10/01/22', '10:20', 10+ ' ₪'),
 ];
 
 export default function BasicTable() {
