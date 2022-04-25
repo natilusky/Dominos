@@ -1,0 +1,24 @@
+.suggestion{
+    margin: auto;
+    cursor: pointer;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.answer{    
+    text-align: right;
+    margin: auto;
+    direction: rtl;
+    margin-top: 20px;
+    white-space: pre-line;
+
+}
+
+.suggestion:hover{
+    background-color: lightskyblue;
+}
+
+.searchbox {
+    text-align: center;
+  }
